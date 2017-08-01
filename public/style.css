@@ -1,0 +1,38 @@
+body {
+  color: white;
+  background-image: url("/z8KCBPz.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+header {
+  margin: 1em 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  height: 2em;
+  width: 4em;
+  font-size: 1em;
+  border-radius: 5px;
+  background-color: #aab6b2;
+}
+input:focus {
+  color: white;
+}
+button {
+  height: 2em;
+  margin: 1em;
+  border-radius: 5px;
+  background-color: #b6d5c7;
+  color: #666;
+}
+.wrapper h3 {
+  margin: 5em 0;
+}
